@@ -1,5 +1,5 @@
 export interface Investment {
-    investmentId:number;
+    investmentId?:number;
     name:string;
     description:string;
     type:string;
