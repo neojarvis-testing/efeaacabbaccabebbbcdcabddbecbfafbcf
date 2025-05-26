@@ -7,7 +7,8 @@ import { InvestmentInquiry } from '../models/investment-inquiry.model';
   providedIn: 'root'
 })
 export class InvestmentInquiryService {
-  private apiUrl='http://localhost:8080/api/investment-inquiries';
+  //8080-efeaacabbaccabebbbcdcabddbecbfafbcf.project.examly.io
+  private apiUrl='http://8080-efeaacabbaccabebbbcdcabddbecbfafbcf.project.examly.io/api/investment-inquiries';
 
   constructor(private http:HttpClient) { }
 
