@@ -1,3 +1,4 @@
+package com.examly.springappuser.model;
 public class LoginDTO {
 private String token;
 private String username;

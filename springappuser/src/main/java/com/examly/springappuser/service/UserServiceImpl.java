@@ -1,6 +1,8 @@
-package main.java.com.examly.springappuser.service;
+package com.examly.springappuser.service;
 
-public interface UserServiceImpl {
+import org.springframework.stereotype.Service;
 
-    
-} 
+@Service
+public class UserServiceImpl {
+
+}
