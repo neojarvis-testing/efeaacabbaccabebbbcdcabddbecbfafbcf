@@ -1,7 +1,15 @@
 package com.examly.springappuser.service;
 
+import org.springframework.stereotype.Service;
+
+import com.examly.springappuser.model.LoginDTO;
 import com.examly.springappuser.model.User;
 
+@Service
 public interface UserService {
-void registerUser(User user);
+
+    String createUser(User user);
+
+    LoginDTO loginUser(User user);
+    
 }
